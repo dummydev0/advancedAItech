@@ -5,6 +5,7 @@ token: ./token.json
 webpath: /metrics
 port: :8080
 check_interval: 5m
+domain: socradar.com
 filters:
   - filter:
     subject_regex: ^\[SOCRadar Incident\].+
